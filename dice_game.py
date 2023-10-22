@@ -22,7 +22,7 @@ while True:
     else:
         print("Invalid! Try again.")
 
-# print(players)
+# 3
 
 max_score = 50
 players_score = [0 for _ in range(players)]
@@ -50,6 +50,7 @@ while max(players_score) < max_score:
         players_score[player_idx] += current_score
         print("Your total score is : ", players_score[player_idx])
 
+# 4
 max_score = max(players_score)
 winning_ind = players_score.index(max_score)
 print("PLayer number", winning_ind + 1, "is the winner with score :", max_score)
